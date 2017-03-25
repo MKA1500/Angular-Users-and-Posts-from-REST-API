@@ -9,7 +9,7 @@ var showPic = function(x) {
     .done(function( data ) {
       $.each( data.items, function( i, item ) {
         $( "<img>" ).attr( "src", item.media.m ).prependTo( "#images" );
-        if ( i === 100 ) {
+        if ( i === 15 ) {
           return false;
         }
       });
@@ -25,6 +25,7 @@ var showPic = function(x) {
 
   $('#ser').on('click', function(){
     x = $('#tag').val();
+	$('#images').html("");
     showPic(x);
   });
   
