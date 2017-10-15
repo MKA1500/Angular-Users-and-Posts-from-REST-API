@@ -1,2 +1,2 @@
 # Flickr-API-Gallery
-jQuery
+jQuery to be changed in this submodule
