@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ImageService } from './shared/image.service';
+import { ImageService } from '../shared/image.service';
 
 @Component({
   selector: 'app-image',
@@ -8,7 +8,7 @@ import { ImageService } from './shared/image.service';
 })
 export class ImageComponent implements OnInit {
 
-  constructor(private imageService: ImageService, ) { }
+  constructor(private imageService: ImageService) { }
 
   ngOnInit() {
   }
