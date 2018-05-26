@@ -20,6 +20,7 @@ const IMAGES = [
 	   {
       "id": 1,
 			"title": "Europe 2018",
+      "category": "tourism",
 			"link": "http:\/\/www.flickr.com\/photos\/135306144@N03\/27479518497\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1728\/27479518497_ff95553b79_m.jpg"},
 			"date_taken": "2018-04-06T23:27:13-08:00",
@@ -32,6 +33,7 @@ const IMAGES = [
 	   {
       "id": 2,
 			"title": "Just a dog",
+      "category": "dogs",
 			"link": "http:\/\/www.flickr.com\/photos\/164826058@N08\/27479519637\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1734\/27479519637_a5c8f300b2_m.jpg"},
 			"date_taken": "2018-03-26T09:14:53-08:00",
@@ -44,6 +46,7 @@ const IMAGES = [
 	   {
       "id": 3,
 			"title": "Forum PA 2018",
+      "category": "people",
 			"link": "http:\/\/www.flickr.com\/photos\/forumpa\/27479523127\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1733\/27479523127_2b050b5181_m.jpg"},
 			"date_taken": "2018-05-23T11:48:36-08:00",
@@ -56,6 +59,7 @@ const IMAGES = [
 	   {
       "id": 4,
 			"title": "SB-O88cRx-003807",
+      "category": "tourism",
 			"link": "http:\/\/www.flickr.com\/photos\/andrewmurrayvineyards\/27479525287\/",
 			"media": {"m":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Rynek_Glowny_w_Krakowie.jpg/242px-Rynek_Glowny_w_Krakowie.jpg"},
 			"date_taken": "2018-05-25T11:32:47-08:00",
@@ -68,6 +72,7 @@ const IMAGES = [
 	   {
       "id": 5,
 			"title": "I love the approach to SFO...",
+      "category": "tourism",
 			"link": "http:\/\/www.flickr.com\/photos\/sleovideo\/27479525777\/",
 			"media": {"m":"http:\/\/farm1.staticflickr.com\/969\/27479525777_f967a86b2f_m.jpg"},
 			"date_taken": "2018-05-25T14:32:49-08:00",
@@ -80,6 +85,7 @@ const IMAGES = [
 	   {
       "id": 6,
 			"title": "The Bamboo Forest at Arishiyama",
+      "category": "nature",
 			"link": "http:\/\/www.flickr.com\/photos\/160739067@N08\/27479526757\/",
 			"media": {"m":"http:\/\/farm1.staticflickr.com\/967\/27479526757_6633bc3759_m.jpg"},
 			"date_taken": "2018-05-25T11:32:50-08:00",
@@ -92,6 +98,7 @@ const IMAGES = [
 	   {
       "id": 7,
 			"title": "2018-05-25_07-32-35",
+      "category": "tourism",
 			"link": "http:\/\/www.flickr.com\/photos\/153013829@N08\/28475632768\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1725\/28475632768_f8c0c98c42_m.jpg"},
 			"date_taken": "2018-05-25T19:32:21-08:00",
@@ -104,6 +111,7 @@ const IMAGES = [
 	   {
       "id": 8,
 			"title": "Un d\u00eda en el museo",
+      "category": "tourism",
 			"link": "http:\/\/www.flickr.com\/photos\/eriaaire\/28475633748\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1722\/28475633748_dd80b05069_m.jpg"},
 			"date_taken": "2018-05-25T13:06:22-08:00",
@@ -116,6 +124,7 @@ const IMAGES = [
 	   {
       "id": 9,
 			"title": "20180524-LRC88766",
+      "category": "tourism",
 			"link": "http:\/\/www.flickr.com\/photos\/ellarsee\/28475633808\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1746\/28475633808_50f170116d_m.jpg"},
 			"date_taken": "2018-05-24T18:56:41-08:00",
@@ -128,6 +137,7 @@ const IMAGES = [
 	   {
       "id": 10,
 			"title": "IMG_0552-Edit.jpg",
+      "category": "nature",
 			"link": "http:\/\/www.flickr.com\/photos\/96732066@N07\/40541885750\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1752\/40541885750_a5e518c012_m.jpg"},
 			"date_taken": "2018-05-18T20:42:12-08:00",
@@ -140,6 +150,7 @@ const IMAGES = [
 	   {
       "id": 11,
 			"title": "vre erger",
+      "category": "people",
 			"link": "http:\/\/www.flickr.com\/photos\/7929850@N08\/41446752705\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1738\/41446752705_3aa7e87f8b_m.jpg"},
 			"date_taken": "2018-05-25T13:29:56-08:00",
@@ -152,6 +163,7 @@ const IMAGES = [
 	   {
       "id": 12,
 			"title": "DSC_3390",
+      "category": "people",
 			"link": "http:\/\/www.flickr.com\/photos\/sebazco\/41446755105\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1743\/41446755105_20f39c3c46_m.jpg"},
 			"date_taken": "2018-05-24T19:47:15-08:00",
@@ -164,6 +176,7 @@ const IMAGES = [
 	   {
       "id": 13,
 			"title": "Under the trees you can live better",
+      "category": "nature",
 			"link": "http:\/\/www.flickr.com\/photos\/94663725@N00\/41626152644\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1756\/41626152644_3e517d4234_m.jpg"},
 			"date_taken": "2018-05-25T15:13:11-08:00",
@@ -176,6 +189,7 @@ const IMAGES = [
 	   {
       "id": 14,
 			"title": "Meine angefangenen Strickprojekte",
+      "category": "tourism",
 			"link": "http:\/\/www.flickr.com\/photos\/8960254@N06\/41626154074\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1741\/41626154074_d626b6381e_m.jpg"},
 			"date_taken": "2018-05-25T20:32:45-08:00",
@@ -188,6 +202,7 @@ const IMAGES = [
 	   {
       "id": 15,
 			"title": "St. Goar",
+      "category": "tourism",
 			"link": "http:\/\/www.flickr.com\/photos\/nlee_pictures\/41626154254\/",
 			"media": {"m":"http:\/\/farm1.staticflickr.com\/897\/41626154254_f7edc32253_m.jpg"},
 			"date_taken": "2016-08-03T03:19:04-08:00",
@@ -200,6 +215,7 @@ const IMAGES = [
 	   {
       "id": 16,
 			"title": "First 93",
+      "category": "tourism",
 			"link": "http:\/\/www.flickr.com\/photos\/156973189@N02\/42300640642\/",
 			"media": {"m":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Rynek_Glowny_w_Krakowie.jpg/242px-Rynek_Glowny_w_Krakowie.jpg"},
 			"date_taken": "2018-05-19T09:07:23-08:00",
@@ -212,6 +228,7 @@ const IMAGES = [
 	   {
       "id": 17,
 			"title": "Prom 2018",
+      "category": "people",
 			"link": "http:\/\/www.flickr.com\/photos\/164562157@N06\/42300644042\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1749\/42300644042_1ab81273bc_m.jpg"},
 			"date_taken": "2018-05-12T19:14:59-08:00",
@@ -224,6 +241,7 @@ const IMAGES = [
 	   {
       "id": 18,
 			"title": "Ch\u00e2teau Mesnil Geoffroy Ermenouville, F-76",
+      "category": "nature",
 			"link": "http:\/\/www.flickr.com\/photos\/33852840@N06\/42349132171\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1755\/42349132171_1c89f0e313_m.jpg"},
 			"date_taken": "2018-05-25T18:20:29-08:00",
@@ -236,6 +254,7 @@ const IMAGES = [
 	   {
       "id": 19,
 			"title": "Thousand Story",
+      "category": "tourism",
 			"link": "http:\/\/www.flickr.com\/photos\/kabirsumon\/42349133831\/",
 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1729\/42349133831_974f6d5432_m.jpg"},
 			"date_taken": "2018-03-04T15:45:13-08:00",
@@ -248,6 +267,7 @@ const IMAGES = [
 	   {
       "id": 20,
 			"title": "Head Brewer",
+      "category": "dogs",
 			"link": "http:\/\/www.flickr.com\/photos\/141218646@N06\/42349135901\/",
 			"media": {"m":"http:\/\/farm1.staticflickr.com\/973\/42349135901_5c169d2d15_m.jpg"},
 			"date_taken": "2018-05-25T11:32:46-08:00",
