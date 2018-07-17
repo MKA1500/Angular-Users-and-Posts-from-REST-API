@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AlertModule } from 'ngx-bootstrap';
 
 import { ImageFilterPipe } from './shared/filter.pipe';
 import { ImageService } from './shared/image.service';
@@ -19,8 +18,7 @@ import { ImageComponent } from './image/image.component';
     ImageFilterPipe
   ],
   imports: [
-    BrowserModule,
-    AlertModule.forRoot()
+    BrowserModule
   ],
   providers: [ImageService, ImageFilterPipe],
   bootstrap: [AppComponent]
