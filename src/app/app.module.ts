@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { ImageFilterPipe } from './shared/filter.pipe';
 import { ImageService } from './shared/image.service';
@@ -18,7 +19,8 @@ import { ImageComponent } from './image/image.component';
     ImageFilterPipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [ImageService, ImageFilterPipe],
   bootstrap: [AppComponent]

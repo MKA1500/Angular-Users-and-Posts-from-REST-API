@@ -1,5 +1,7 @@
 import { Component, OnInit, OnChanges, Input } from '@angular/core';
+import { Observable } from 'rxjs';
 import { ImageService } from '../shared/image.service';
+import { ImageService } from '../shared/data.service';
 
 @Component({
   selector: 'app-gallery',
