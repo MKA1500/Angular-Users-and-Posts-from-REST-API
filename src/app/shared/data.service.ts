@@ -8,7 +8,7 @@ export class DataService {
 
   constructor(private http: HttpClient) {
     getPhotos() {
-      return this.http.get('http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?Krakow&tagmode=any&format=json')
+      return this.http.get('http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?Krakow&tagmode=any&format=json');
     }
   }
 }
