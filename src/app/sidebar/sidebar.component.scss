@@ -1,4 +1,24 @@
 @import "../../variables.scss";
-p {
-  color: $font-dark;
+nav {
+  background: $dark-grey;
+  height: 100vh;
+  width: 4rem;
+  float: left;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+      a {
+        color: $white;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .activated {
+        background: $blue;
+      }
+    }
+  }
 }
