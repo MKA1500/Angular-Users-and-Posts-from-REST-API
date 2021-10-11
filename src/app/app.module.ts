@@ -9,9 +9,6 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { UsersComponent } from './users/users.component';
 import { PostsComponent } from './posts/posts.component';
 import { DetailsComponent } from './details/details.component';
-import { AuthService } from './auth.service';
-import { AuthGuard } from './auth-guard.service';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +23,6 @@ import { AuthGuard } from './auth-guard.service';
     HttpClientModule,
     BrowserAnimationsModule
   ],
-  providers: [AuthService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
